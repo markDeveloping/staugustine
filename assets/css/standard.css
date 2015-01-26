@@ -1,0 +1,11 @@
+.banner-img {
+	background-image: url('img/banner.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .banner-img {
+    	background-image: url('img/banner-mobile.svg');
+    }
+}
