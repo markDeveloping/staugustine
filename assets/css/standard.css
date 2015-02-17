@@ -13,14 +13,18 @@ light-grey: #D9E4E9
 }
 
 .btn-info {
-color: #F7F6F7;
-background-color: #12B3AE;
-border-color: #F7F6F7;
+	color: #F7F6F7;
+	background-color: #12B3AE;
+	border-color: #F7F6F7;
+}
+
+.lead {
+	font-size: 19px;
 }
 
 .btn-info:hover {
-background-color:#13C0BA;
-border-color: #F7F6F7;
+	background-color:#13C0BA;
+	border-color: #F7F6F7;
 }
 
 .fabricDark {
