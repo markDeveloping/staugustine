@@ -3,12 +3,20 @@
 <head>
   <title>St. Augustine</title>
   <meta charset="utf-8">
+  <!--Below meta tag inproves the usability of the site on mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--The Bootstrap CSS provided via a CDN-->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!--Stylesheet which overwrites bootstrap standard CSS-->
   <link rel="stylesheet" type="text/css" href="assets/css/standard.css">
+  <!--Book favicon image link-->
   <link rel="icon" type="image/ico" href="assets/img/favicon.ico">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!--jQuery mini CDN-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!--Boorstrap javascript CDN-->
+  <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!--Script for Masonry type image gallery-->
+  <script type="text/javascript" src="assets/js/salvattore.min.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -28,8 +36,9 @@
       <ul class="nav navbar-nav">
       	<li><a href="#inportantInfo">Inportant information</a></li>
         <li><a href="#gallery"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallery</a></li>
-        <li><a href="#newParents">Information for new parents</a></li>
+        <li><a href="#newParents">New parents</a></li>
         <li><a href="#learning">Learning</a></li>
+        <li><a href="#resources">Facilities</a></li>
         <li><a href="#contactUs">Contact us</a></li>
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Useful links<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -169,50 +178,22 @@
 			<br>
 			<h1>Gallery</h1>
 		</div>
-		<div class="col-xs-6 col-md-3">
-	    	<a href="#" class="thumbnail">
-	      		<img width="100%" src="http://placehold.it/171x180" alt="placeholder">
-	    	</a>
- 		 </div>
- 		 <div class="col-xs-6 col-md-3">
-	    	<a href="#" class="thumbnail">
-	      		<img width="100%" src="http://placehold.it/171x180" alt="placeholder">
-	    	</a>
- 		 </div>
- 		 <div class="col-xs-6 col-md-3">
-	    	<a href="#" class="thumbnail">
-	      		<img width="100%" src="http://placehold.it/171x180" alt="placeholder">
-	    	</a>
- 		 </div>
- 		 <div class="col-xs-6 col-md-3">
-	    	<a href="#" class="thumbnail">
-	      		<img width="100%" src="http://placehold.it/171x180" alt="placeholder">
-	    	</a>
- 		 </div>
- 		 <div class="col-xs-6 col-md-3">
-	    	<a href="#" class="thumbnail">
-	      		<img width="100%" src="http://placehold.it/171x180" alt="placeholder">
-	    	</a>
- 		 </div>
- 		 <div class="col-xs-6 col-md-3">
-	    	<a href="#" class="thumbnail">
-	      		<img width="100%" src="http://placehold.it/171x180" alt="placeholder">
-	    	</a>
- 		 </div>
- 		 <div class="col-xs-6 col-md-3">
-	    	<a href="#" class="thumbnail">
-	      		<img width="100%" src="http://placehold.it/171x180" alt="placeholder">
-	    	</a>
- 		 </div>
- 		 <div class="col-xs-6 col-md-3">
-	    	<a href="#" class="thumbnail">
-	      		<img width="100%" src="http://placehold.it/171x180" alt="placeholder">
-	    	</a>
- 		 </div>
+		<div id="grid" data-columns>
+			<div class="column size-1of3"><img src="assets/img/026_opt.jpg" width="100%"></div>
+			<div class="column size-1of3"><img src="assets/img/018_opt.jpg" width="100%"></div>
+			<div class="column size-1of3"><img src="assets/img/014_opt.jpg" width="100%"></div>
+			<div class="column size-1of3"><img src="assets/img/003_opt.jpg" width="100%"></div>
+			<div class="column size-1of3"><img src="assets/img/034_opt.jpg" width="100%"></div>
+			<div class="column size-1of3"><img src="assets/img/064_opt.jpg" width="100%"></div>
+			<div class="column size-1of3"><img src="assets/img/024_opt.jpg" width="100%"></div>
+			<div class="column size-1of3"><img src="assets/img/020_opt.jpg" width="100%"></div>
+			<div class="column size-1of3"><img src="assets/img/022_opt.jpg" width="100%"></div>
+		</div>
 	</div>
 	<div class="row" id="newParents">
 					<hr>
 		<div class="col-sm-8">
+			<br>
 			<h1>Information for new parents</h1>
 			<h2>Attending pre-school</h2>
 			<p>We understand that starting Pre-school can be a big step for you and your child. Before your child starts you are invited to come to Pre-school with your child to meet the staff and other children. Each child is an individual and settling in takes longer for some children than others. You are welcome at any time to discuss your child’s needs/worries with your child's Key person or Pre-school leader.</p>
@@ -240,6 +221,7 @@
 	<div class="row" id="learning">
 		<hr>
 		<div class="col-sm-8">
+			<br>
 			<h1>Learning</h1>
 			<p>The Pre-school uses the Early Years Foundation Stage as guidance for the activities we plan for the children.  However, our main inspiration comes from careful observations of the children during play, regular termly meetings with parents to discuss their child’s progress and interests and also by communicating with other settings that a child attends.  By doing this we are able to ensure that individual needs and interests are being met.</p>
 			<p>During most of the day the children take part in child initiated activities both indoors and outside. The children also take part in adult led activities e.g. hello song, show and tell, story time, key group time and for the older children Letters and sounds activities. The amount of time spent on adult led activities increases  as the children get closer to school age.</p> 
@@ -262,7 +244,13 @@
 			<p>Through art, music, dance, stories, role-play and imaginative play, children are able to communicate and express their ideas and feelings.</p>
 			<h2>Maths</h2>
 			<p>Maths skills are developed through stories, songs, games and imaginative play so that the children enjoy using and experimenting with numbers. Our mathematical activities include counting, sorting, matching, working with numbers, shapes, space and measures.</p>
-			<h2>Facilities and resources</h2>
+			</div>
+		</div>
+	<div class="row" id="resources">
+		<hr>
+		<div class="col-sm-8">
+			<br>
+			<h1>Facilities and resources</h1>
 			<p>The Pre-school building and resources are well maintained to ensure the safety of the children. The resources we have are age appropriate, inclusive and challenging.</p>
 			<p>To ensure all areas of learning are covered the Pre-school is divided into the following areas which are all well stocked:</p>
 			<ol>
@@ -284,6 +272,7 @@
 	<div class="row" id="contactUs">
 			<hr>
 		<div class="col-sm-3">
+			<br>
 			<h1>Contact us</h1>
 				<p>St. Augustine of Canterbury Pre-school<br>
 				Boscombe Crescent<br>
