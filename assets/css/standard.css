@@ -70,7 +70,9 @@ a:hover {
 .column { float: left; }
 .size-1of3 { width: 33.333%; }
 
-body { padding-top: 50px; }
+.navbar {
+	margin-bottom: 0;
+}
 
 @media screen and (max-width: 480px) {
     .banner-img {
