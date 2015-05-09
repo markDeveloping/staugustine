@@ -6,11 +6,36 @@ Grey: #676567
 light-grey: #D9E4E9
 */
 
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
 .banner-img {
-	background-image: url('img/banner.svg');
+	background-image: url('../img/banner.svg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
+.banner-learning {
+  background-color: #0AA2EF;
+  color: white;
+}
+
+.banner-gallery {
+	background-color: #BC451B;
+	color: white;
+}
+
+.banner-newParents {
+	background-color: #BF31C7;
+	color: white;
+}
+
+.banner-facilities {
+	background-color: #701D00;
+	color: white;
+}
+
 
 .btn-info {
 	color: #F7F6F7;
@@ -28,11 +53,11 @@ light-grey: #D9E4E9
 }
 
 .fabricDark {
-	background-image: url('img/tweed.png');
+	background-image: url('../img/tweed.png');
 }
 
 .fabricText {
-	color: #D9E4E9;
+	color: #ffffff;
 }
 
 .navbar-default {
@@ -62,12 +87,27 @@ a:hover {
 	background-color: #F7F6F7;
 }
 
-#grid[data-columns]::before {
-	content: '3 .column.size-1of3';
+@media screen and (max-width: 480px){
+	#grid[data-columns]::before {
+		content: '1 .column.size-1of1';
+	}
 }
 
-/* These are the classes that are going to be applied: */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#grid[data-columns]::before {
+		content: '2 .column.size-1of2';
+	}
+}
+@media screen and (min-width: 769px) {
+	#grid[data-columns]::before {
+		content: '3 .column.size-1of3';
+	}
+}
+
+/* Again, youÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢re free to use and define the classes: */
 .column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
 .size-1of3 { width: 33.333%; }
 
 .navbar {
@@ -76,6 +116,6 @@ a:hover {
 
 @media screen and (max-width: 480px) {
     .banner-img {
-    	background-image: url('img/banner-mobile.svg');
+    	background-image: url('../img/banner-mobile.svg');
     }
 }
