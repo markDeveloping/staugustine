@@ -31,8 +31,13 @@ light-grey: #D9E4E9
 	color: white;
 }
 
+.banner-policies {
+	background-color: #BF31C7;
+	color: white;
+}
+
 .banner-facilities {
-	background-color: #701D00;
+	background-color: #0AA2EF;
 	color: white;
 }
 
@@ -104,7 +109,7 @@ a:hover {
 	}
 }
 
-/* Again, youÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢re free to use and define the classes: */
+/* Again, you're free to use and define the classes: */
 .column { float: left; }
 .size-1of1 { width: 100%; }
 .size-1of2 { width: 50%; }
