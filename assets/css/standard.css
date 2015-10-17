@@ -6,6 +6,10 @@ Grey: #676567
 light-grey: #D9E4E9
 */
 
+h1 {
+	font-family: 'Cabin Sketch', cursive;
+}
+
 .navbar-default .navbar-brand {
   color: #FFFFFF;
 }
@@ -17,27 +21,27 @@ light-grey: #D9E4E9
 }
 
 .banner-learning {
-  background-color: #0AA2EF;
+  background-color: rgb(204,119,175);
   color: white;
 }
 
 .banner-gallery {
-	background-color: #BC451B;
+	background-color: rgb(177,205,72);
 	color: white;
 }
 
 .banner-newParents {
-	background-color: #BF31C7;
+	background-color: rgb(79,120,133);
 	color: white;
 }
 
 .banner-policies {
-	background-color: #BF31C7;
+	background-color: rgb(217,157,101);
 	color: white;
 }
 
 .banner-facilities {
-	background-color: #0AA2EF;
+	background-color: rgb(40, 53, 131);
 	color: white;
 }
 
