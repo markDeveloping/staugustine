@@ -16,6 +16,13 @@ h1 {
 	width: 128px;
 }
 
+.watermark {
+	background-image: url('../img/watermark.png');
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 630px 380px;
+}
+
 /*padding for gallery images*/
 .padding {
 	padding: 0;
