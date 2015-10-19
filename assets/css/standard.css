@@ -128,7 +128,7 @@ a:hover {
 
 @media screen and (max-width: 480px) {
     .banner-img {
-    	background-image: url('../img/banner-mobile.svg');
+    	background-image: url('../img/banner-mobile.png');
     }
     .logo {
 		display: none;
