@@ -10,8 +10,22 @@ h1 {
 	font-family: 'Cabin Sketch', cursive;
 }
 
+.logo {
+	position: absolute;
+	top:16px;
+	width: 128px;
+}
+
+/*padding for gallery images*/
 .padding {
 	padding: 0;
+}
+
+@media screen and (min-width: 769px) {
+	.logo {
+		width: 180px;
+	}
+
 }
 
 .navbar-default .navbar-brand {
@@ -23,7 +37,7 @@ h1 {
 }
 
 .banner-img {
-	background-image: url('../img/banner.svg');
+	background-image: url('../img/banner.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -31,6 +45,7 @@ h1 {
 .banner-learning {
   background-color: rgb(204,119,175);
   color: white;
+  padding-bottom: 10px;
 }
 
 .banner-gallery {
@@ -41,16 +56,19 @@ h1 {
 .banner-newParents {
 	background-color: rgb(79,120,133);
 	color: white;
+	padding-bottom: 10px;
 }
 
 .banner-policies {
 	background-color: rgb(217,157,101);
 	color: white;
+	padding-bottom: 10px;
 }
 
 .banner-facilities {
 	background-color: rgb(40, 53, 131);
 	color: white;
+	padding-bottom: 10px;
 }
 
 
@@ -112,4 +130,7 @@ a:hover {
     .banner-img {
     	background-image: url('../img/banner-mobile.svg');
     }
+    .logo {
+		display: none;
+	}
 }
