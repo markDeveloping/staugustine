@@ -10,6 +10,11 @@ h1 {
 	font-family: 'Cabin Sketch', cursive;
 }
 
+/*Wraps horible long email address on the home page*/
+a {
+	word-wrap: break-word;
+}
+
 .logo {
 	position: absolute;
 	top:16px;
@@ -20,7 +25,7 @@ h1 {
 	background-image: url('../img/watermark.png');
 	background-repeat: no-repeat;
 	background-size: 40%;
-	background-position: 630px 380px;
+	background-position: 430px 330px;
 }
 
 /*padding for gallery images*/
@@ -32,7 +37,12 @@ h1 {
 	.logo {
 		width: 180px;
 	}
+}
 
+@media screen and (max-width: 599px) {
+	.watermark {
+		background-position: 200px 330px;
+	}
 }
 
 .navbar-default .navbar-brand {
@@ -136,8 +146,14 @@ a:hover {
 @media screen and (max-width: 480px) {
     .banner-img {
     	background-image: url('../img/banner-mobile.png');
+    	background-size: 150%;
+    }
+    .watermark{
+    	background-size: 200px;
     }
     .logo {
-		display: none;
+		left: 0px;
+		top: 27px;
+		width: 100px;
 	}
 }
