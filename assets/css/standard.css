@@ -65,6 +65,12 @@ a {
   padding-bottom: 10px;
 }
 
+.banner-cookies {
+  background-color: rgb(137,198,179);
+  color: white;
+  padding-bottom: 10px;
+}
+
 .banner-gallery {
 	background-color: rgb(177,205,72);
 	color: white;
