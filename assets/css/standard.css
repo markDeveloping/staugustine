@@ -149,6 +149,14 @@ a:hover {
 	margin-bottom: 0;
 }
 
+.cookieTable {
+	width: 100%;
+}
+
+.cookieTable tr {
+	border-bottom: 1px solid #ccc;
+}
+
 @media screen and (max-width: 480px) {
     .banner-img {
     	background-image: url('../img/banner-mobile.png');
